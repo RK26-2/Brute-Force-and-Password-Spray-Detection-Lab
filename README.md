@@ -102,3 +102,6 @@ Some screenshots referenced in the report are stored in:
 - SOC incident workflow
 
 - Professional report writing
+
+**What I Learned:**
+Through this lab, I strengthened my detection engineering and SOC investigation skills using Microsoft Sentinel. I learned how to ingest Windows Security Events and Azure AD sign‑in logs, build custom analytics rules for brute‑force and password spray attacks, and validate detections using KQL. I also gained experience using Sentinel workbooks for identity visibility, applying automation rules to classify incidents, and exploring SOAR concepts through playbook design. Overall, this project improved my confidence in analysing authentication attacks, mapping detections to MITRE ATT&CK, and documenting a full SOC investigation workflow.
