@@ -1,8 +1,8 @@
 # Brute-Force-and-Password-Spray-Detection-Lab
-**Brute‑Force & Password Spray Detection Lab (Microsoft Sentinel)**
+**Brute‑Force & Password Spray Detection Lab (Microsoft Sentinel):**
 This repository contains my end‑to‑end detection engineering lab focused on identifying and investigating Brute‑Force and Password Spray attacks using Microsoft Sentinel. The project demonstrates real SOC workflows including log ingestion, analytics rule creation, MITRE mapping, workbook visualisation, automation, and incident investigation.
 
-🔍 **Lab Overview**
+🔍 **Lab Overview:**
 This lab covers:
 
 - Brute‑force attack detection using Windows Security Events (4625/4624)
@@ -21,18 +21,22 @@ This lab covers:
 
 - Full SOC‑style investigation and reporting
 
-📁 **Repository Structure**
+## 📁 Repository Structure
 
-📦 BruteForce-and-Password-Spray-Lab
- ┣ 📁 Few-snapshots
- ┃   ┗ (Key screenshots used in the report)
- ┣ 📁 Report
- ┃   ┗ BruteForce-Lab-Report.pdf
- ┗ 📄 README.md
-📄 **Full Report**
+📦 **BruteForce-and-Password-Spray-Lab:**
+ - ┣ 📄 👉 snapshots: [Few-snapsots](Few-snapshots/)
+ 
+ - ┣ 📄 👉 Full Report: [BruteForce-Lab-Report.pdf](BruteForce-Lab-Report.pdf)
+ 
+ - ┣ 📁  README.md
+ 
+ ┗ 📄 .gitignore
+
+📄 **Full Report:**
 The complete SOC investigation report is available here:
 
-👉 /Report/BruteForce-Lab-Report.pdf
+👉 Full Report: [BruteForce-Lab-Report.pdf](BruteForce-Lab-Report.pdf)
+
 
 *This includes:*
 
@@ -52,18 +56,18 @@ The complete SOC investigation report is available here:
 
 - Appendix with evidence
 
-🖼 **Evidence Screenshots**
+🖼 **Evidence Screenshots:**
 Some screenshots referenced in the report are stored in:
 
-👉 /Few-snapshots/
+👉 snapshots: [Few-snapsots](Few-snapshots/)
 
 
-🧠 **MITRE ATT&CK Mapping**
-T1110.001 — Password Guessing (Brute‑Force)
+🧠 **MITRE ATT&CK Mapping:**
+- T1110.001 — Password Guessing (Brute‑Force)
 
-T1110.003 — Password Spraying
+- T1110.003 — Password Spraying
 
-TA0006 — Credential Access
+- TA0006 — Credential Access
 
 ⚙️ **Analytics Rules Implemented**
 - Multiple Failed RDP Logons (Brute‑Force)
@@ -72,19 +76,19 @@ TA0006 — Credential Access
 
 - Both rules were tested and validated using simulated attacks.
 
-📊 **Workbooks Used**
-Identity & Access Workbook — Windows Security Events
+📊 **Workbooks Used:**
+- Identity & Access Workbook — Windows Security Events
 
-Microsoft Entra ID Audit Logs Workbook — Azure AD identity activity
+- Microsoft Entra ID Audit Logs Workbook — Azure AD identity activity
 
-These dashboards were used to visualise authentication patterns and confirm log ingestion.
+- These dashboards were used to visualise authentication patterns and confirm log ingestion.
 
-🤖 **Automation**
-Automation Rule: Automatically tags brute‑force incidents
+🤖 **Automation:**
+- Automation Rule: Automatically tags brute‑force incidents
 
-Playbook Concept: Watchlist‑based IP blocking (documented but not deployed due to subscription limits)
+- Playbook Concept: Watchlist‑based IP blocking (documented but not deployed due to subscription limits)
 
-🧪 **Skills Demonstrated**
+🧪 **Skills Demonstrated:**
 *Detection engineering*
 
 - KQL investigation
